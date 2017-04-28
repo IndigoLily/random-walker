@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #fff;
+}
+canvas {
+}
+#options {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+}
+input[type="button"] {
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
+input[type="range"] {
+    vertical-align: bottom;
+}
+input[type="button"]:hover {
+    background-color: #334;
+    cursor: pointer;
+}
+input[type="number"] {
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
+label {
+    display: block;
+}
+.inputWithLabel {
+    display: inline-block;
+    text-align: center;
+}

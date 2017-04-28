@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/addons/p5.dom.js"></script>
+        <script src="sketch.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title></title>
+
+    </head>
+
+    <body>
+
+        <div id="options">
+
+            <input type="button" value="Save" id="save">
+            <input type="button" value="Clear" id="clear">
+            <input type="button" value="Fullscreen" id="full">
+            <div class="inputWithLabel">
+                <input type="range" id="saturation" min="0" max="100" value="100">
+                <label>Saturation</label>
+            </div>
+            <div class="inputWithLabel">
+                <input type="range" id="opacity" min="0" max="1" step=".01" value="1">
+                <label>Opacity</label>
+            </div>
+            <div class="inputWithLabel">
+                <input type="range" id="size" min="1" max="30" value="1">
+                <label>Size</label>
+            </div>
+            <div class="inputWithLabel">
+                <input type="range" id="padding" min="1" max="4" step=".01" value="1">
+                <label>Padding</label>
+            </div>
+            <div class="inputWithLabel">
+                <input type="range" id="speed" min="1" max="1000" value="1">
+                <label>Speed</label>
+            </div>
+            <div class="inputWithLabel">
+                <input type="range" id="colorSpeed" min="1" max="1000" value="1000">
+                <label>Colour speed</label>
+            </div>
+
+            <p>Click on page to hide options/cursor. Warning: Resizing the screen will clear the canvas, and saving files in Google Chrome resizes the window.</p>
+
+        </div>
+
+    </body>
+</html>
